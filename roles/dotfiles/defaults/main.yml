@@ -1,3 +1,0 @@
-dotfiles:
-  repo: https://github.com/nevstokes/dotfiles.git
-  dest: $HOME/dotfiles

@@ -1,7 +1,0 @@
-- name: Cloning
-  git:
-    repo: '{{ dotfiles.repo }}'
-    dest: '{{ dotfiles.dest }}'
-
-- name: Symlinking
-  raw: find {{ dotfiles.dest }}/* -maxdepth 0 -type d -exec sh -c 'stow -d {{ dotfiles.dest }} -S $(basename {})' \;

@@ -1,8 +1,0 @@
-- name: Adding repository
-  apt:
-    deb: https://downloads.slack-edge.com/linux_releases/slack-desktop-{{ slack.version }}-amd64.deb
-
-- name: Installing
-  package:
-    name: slack
-    state: latest
